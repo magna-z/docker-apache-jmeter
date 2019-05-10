@@ -1,12 +1,9 @@
 Apache JMeter in Docker
 ===
 
-Java application designed to load test functional behavior and measure performance.
-
-[![](https://images.microbadger.com/badges/image/devinotelecom/apache-jmeter.svg)](http://microbadger.com/images/devinotelecom/apache-jmeter)
-
+Java application designed to load test functional behavior and measure performance.  
 Official website: <https://jmeter.apache.org>  
-Latest release: **5.1.1**
+Latest release: [![](https://images.microbadger.com/badges/version/devinotelecom/apache-jmeter:5.1.1.svg)](https://microbadger.com/images/devinotelecom/apache-jmeter:5.1.1)
 
 ### Available tags:
 - **5.1.1** or **latest** ([Dockerfile](https://github.com/devinotelecom/docker-apache-jmeter/blob/5.1.1/Dockerfile)) [![](https://images.microbadger.com/badges/image/devinotelecom/apache-jmeter:5.1.1.svg)](https://microbadger.com/images/devinotelecom/apache-jmeter:5.1.1)
