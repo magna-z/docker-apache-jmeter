@@ -3,15 +3,15 @@ Apache JMeter in Docker
 
 Java application designed to load test functional behavior and measure performance.  
 Official website: <https://jmeter.apache.org>  
-Latest release: [![](https://images.microbadger.com/badges/version/devinotelecom/apache-jmeter:5.1.1.svg)](https://microbadger.com/images/devinotelecom/apache-jmeter:5.1.1)
+Latest release: [![](https://images.microbadger.com/badges/version/magnaz/apache-jmeter:5.4.1.svg)](https://microbadger.com/images/magnaz/apache-jmeter:5.4.1)
 
 ### Available tags:
-- **5.1.1** or **latest** ([Dockerfile](https://github.com/devinotelecom/docker-apache-jmeter/blob/5.1.1/Dockerfile)) [![](https://images.microbadger.com/badges/image/devinotelecom/apache-jmeter:5.1.1.svg)](https://microbadger.com/images/devinotelecom/apache-jmeter:5.1.1)
+- **5.4.1** or **latest** ([Dockerfile](https://github.com/magnaz/docker-apache-jmeter/blob/5.4.1/Dockerfile)) [![](https://images.microbadger.com/badges/image/devinotelecom/apache-jmeter:5.1.1.svg)](https://microbadger.com/images/magnaz/apache-jmeter:5.4.1)
 
 ### Run as JMeter-server:
 ```bash
 docker run -d -p 1099:1099 \
-devinotelecom/apache-jmeter:latest \
+magnaz/apache-jmeter:latest \
 -s \
 -Dserver_port=1099 \
 -Jserver.rmi.ssl.disable=true
