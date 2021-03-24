@@ -1,6 +1,6 @@
-FROM openjdk:8u212-jre-alpine3.9
+FROM openjdk:8u282-jre-slim-buster
 
-ENV APACHE_JMETER_VERSION=5.1.1
+ENV APACHE_JMETER_VERSION=5.4.1
 
 RUN set -ex && \
     cd /tmp/ && \
